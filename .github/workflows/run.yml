@@ -38,11 +38,3 @@ jobs:
           SECRETID: ${{ secrets.SECRETID }}
           SECRETKEY: ${{ secrets.SECRETKEY }}
         run: python cf2dns_actions.py AAAA
-            - name: StartgptCommit — improve commits with AI 🧙
-  # You may pin to the exact commit or the version.
-  # uses: khulnasoft/StartgptCommit@8d2845b542655ec927e9df7e82d9855224577a37
-  uses: khulnasoft/StartgptCommit@v1.0.4
-  with:
-    # GitHub token
-    GITHUB_TOKEN: 
-          
